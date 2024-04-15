@@ -47,7 +47,7 @@ namespace WebApplication1.Controllers
                 return NotFound("User not found");
             }
             _userService.DeleteUser(id);
-            return Ok("Deleted user with Id: " + id); // Trả về thông báo xóa thành công
+            return Ok("Deleted user with Id: " + id);//
         }
 
     }
