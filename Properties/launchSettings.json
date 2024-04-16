@@ -37,5 +37,19 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
-  }
+  },
+
+  "configurations": [
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "/Users/quanganh/Documents/coder/ASP.net/ASP_DOTNET/ASP_DOTNET.sln",
+      "args": ["/Users/quanganh/Documents/coder/ASP.net/ASP_DOTNET"],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
 }

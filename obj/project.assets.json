@@ -3211,26 +3211,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HLC\\.nuget\\packages\\": {}
+    "/Users/quanganh/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\coder\\DotNet\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "/Users/quanganh/Documents/coder/ASP.net/ASP_DOTNET/WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "D:\\coder\\DotNet\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\HLC\\.nuget\\packages\\",
-      "outputPath": "D:\\coder\\DotNet\\WebApplication1\\WebApplication1\\obj\\",
+      "projectPath": "/Users/quanganh/Documents/coder/ASP.net/ASP_DOTNET/WebApplication1.csproj",
+      "packagesPath": "/Users/quanganh/.nuget/packages/",
+      "outputPath": "/Users/quanganh/Documents/coder/ASP.net/ASP_DOTNET/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HLC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/quanganh/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3290,7 +3288,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

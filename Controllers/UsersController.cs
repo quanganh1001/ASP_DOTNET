@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Models;
 using WebApplication1.Services;
+using WebApplication1.Repositories;
 
 namespace WebApplication1.Controllers
 {
@@ -10,11 +11,10 @@ namespace WebApplication1.Controllers
     public class UsersController(IUserService userService) : ControllerBase
     {
         private readonly IUserService _userService = userService;
-
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
-            return Ok(_userService.GetUsers());
+            return Ok(await _userService.GetUsers());
         }
 
         [HttpGet("{id}")]
